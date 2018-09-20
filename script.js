@@ -17,6 +17,11 @@ var Counter = React.createClass({
         });
     },
 
+//componentWillReceiveProps
+//shouldComponentUpdate
+//componentWillUpdate
+//componentDidUpdate
+	
     render: function() {
         return React.createElement('div', {},
             React.createElement('span', {}, 'Licznik ' + this.state.counter),
