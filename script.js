@@ -27,5 +27,31 @@ var Counter = React.createClass({
     }
 });
 
-var element = React.createElement(Counter);
-ReactDOM.render(element, document.getElementById('app'));
+var countersList = React.createClass({
+	render: function() {
+	return (
+	  React.createElement('div', {className: 'app'},
+	  	
+		    React.createElement('div', {}, 
+		    	React.createElement(Counter,{})
+		    ),
+		    React.createElement('div', {}, 
+		    	React.createElement(Counter,{})
+		    ),
+		
+		    React.createElement('div', {},
+		    	React.createElement(Counter,{})
+		    ),
+		    React.createElement('div', {}, 
+		    	React.createElement(Counter,{})
+		    ),
+		
+		)
+	)
+	}
+});
+
+
+
+var app = React.createElement(countersList);
+ReactDOM.render(app, document.getElementById('app'));
