@@ -1,8 +1,12 @@
 body {
   padding: 20px;
+}
+
+div {
   text-align: center;
-  background-color: lavender;
   width: 80%;
+  background-color: Gold ;
   max-width: 1200px;
   margin: 0 auto;
-}
+  padding: 20px;   
+  }
