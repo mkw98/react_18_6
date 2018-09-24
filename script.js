@@ -18,20 +18,22 @@ var Counter = React.createClass({
     },
 
 //	getDefaultProps: function() {
-//    	console.log('Faza inicjalizacji. pomysl na uzycie? ')
+//    	console.log('Metoda wywoływana w fazie inicjalizacji. Ustawia domyślne wartości propsów.')
 //    },
 	
 //	componentWillMount : function() {
-//    	console.log('Faza inicjalizacji. metoda wywoływane tylko w momencie inicjalizacji komponentu.  wywoływana zaraz przed wykonaniem metody render. 
-	//Ustawienie stanu w tej metodzie nie spowoduje przerenderowania komponentu. pomysl na uzycie? ')
+//    	console.log('Metoda, która działa, ale wg dokumentacji już się od niej odchodzi. Metoda wywoływana tylko w momencie inicjalizacji komponentu.  Wywoływana zaraz przed wykonaniem metody render. 
+	//Ustawienie stanu w tej metodzie nie spowoduje przerenderowania komponentu. ')
 //    },  
 	
 //	componentDidMount: function() {
-//    	console.log('Faza inicjalizacji. metoda wywoływane tylko w momencie inicjalizacji komponentu. wywoływana PO wywoalniu metody render.Pomyslna uzycieie? ')
+//    	console.log('Faza inicjalizacji. Metoda wywoływane tylko w momencie inicjalizacji komponentu. 
+//	wywoływana PO wywolaniu metody render. Może służyć do wczytania danych z serwera')
 //    },  
 //	
 //	componentWillReceiveProps: function() {
-//    	console.log('Faza aktualizacji.  Metoda zostanie wywołana tylko wtedy, gdy komponent otrzyma nowe właściwości i nie jest to faza pierwszego renderowania (montowanie komponentu). Metoda ta pozwala aktualizować stan na podstawie nadchodzących właściwości.  góry", czyli od rodzica komponentu.pomysl na uzycie ')
+//    	console.log('Faza aktualizacji.  Metoda zostanie wywołana tylko wtedy, gdy komponent otrzyma nowe właściwości
+//	i nie jest to faza pierwszego renderowania (montowanie komponentu). Metoda ta pozwala aktualizować stan na podstawie nadchodzących właściwości.  góry", czyli od rodzica komponentu.pomysl na uzycie ')
 //    },
 //	shouldComponentUpdate: function() {
 //    	console.log('Faza aktualizacji. Metoda ta jest wywoływana tuż PRZED wywołaniem metody render i pozwala sprawdzić, 
