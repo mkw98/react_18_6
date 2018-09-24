@@ -43,7 +43,7 @@ var Counter = React.createClass({
     	console.log('Faza aktualizacji. wywołuje się jako ostatnia po przerysowaniu komponentu. możemy wykonać np.  manipulacje DOM (analogicznie do metody componentDidMount). Można sprawdzić czy wywołanie zaplanowanych efektów ubocznych jest potrzebne.  ')
     },
 	componentWillUnmount: function() {
-	console.log( 'faza usuwania. możemy wykonywać wszystkie rzeczy związane z odpinaniem liczników czy odłączaniem event listenerów'
+	console.log( 'faza usuwania. możemy wykonywać wszystkie rzeczy związane z odpinaniem liczników czy odłączaniem event listenerów')
    },
 
 	
