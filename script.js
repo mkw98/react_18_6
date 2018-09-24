@@ -33,6 +33,7 @@ var Counter = React.createClass({
     	console.log('Faza aktualizacji. Metoda, która działa, ale wg dokumentacji już się od niej odchodzi. Metoda zostanie wywołana tylko wtedy, gdy komponent otrzyma nowe właściwości i nie jest to faza pierwszego renderowania (montowanie komponentu). Metoda pozwala aktualizować stan na podstawie nadchodzących właściwości.  ')
     },
 	shouldComponentUpdate: function() {
+	return true; 
     	console.log('Faza aktualizacji. Metoda ta jest wywoływana tuż PRZED wywołaniem metody render i pozwala sprawdzić, czy faktycznie trzeba jeszcze raz przerysować komponent. Zwracana jest tutaj wartość true/false. Metodę tę możemy zastosować, kiedy bardzo zależy nam na optymalizacji aplikacji ')
     },
 	componentWillUpdate: function() {
