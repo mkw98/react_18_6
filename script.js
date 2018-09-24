@@ -19,7 +19,7 @@ var Counter = React.createClass({
 
 	getDefaultProps: function() {
     	console.log('Metoda wywoływana w fazie inicjalizacji. Ustawia domyślne wartości propsów.')
-    };
+    },
 	
 	componentWillMount : function() {
     	console.log('Metoda, która działa, ale wg dokumentacji już się od niej odchodzi. Metoda wywoływana tylko w momencie inicjalizacji komponentu.  Wywoływana zaraz przed wykonaniem metody render. Ustawienie stanu w tej metodzie nie spowoduje przerenderowania komponentu. ')
